@@ -16,6 +16,8 @@ view popular courses if you're not sure what to put into your schedule.
 
 ### Setup and Usage
 
+#### Heroku Link: https://gentle-basin-56402.herokuapp.com
+
 1. Clone the repo or download and unzip it.
 2. Install the dependencies using command `npm install`.
 3. Start the app by running `npm start`
