@@ -343,6 +343,22 @@ app.post('/courses/byName',
     }
 )
 
+app.post('/courses/byTerm',
+    async (req, res, next) => {
+        const {term} = req.body;
+        const courses = await Course.find({term: term, independent_study: false}).sort({
+            term: 1,
+            num: 1,
+            section: 1
+        })
+
+        res.locals.courses = courses
+        res.locals.times2str = times2str
+        //res.json(courses)
+        res.render('courselist')
+    }
+)
+
 app.use(isLoggedIn)
 
 app.get('/addCourse/:courseId',
