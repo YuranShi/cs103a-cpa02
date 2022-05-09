@@ -1,12 +1,10 @@
-CS103A - CPA02
+CS103A - CPA02: Class Schedule App
 ==
-
-## Class Schedule App
 
 The class schedule app is modified from cs103aExpressApp. It adds features like search by course name and terms, and
 view popular courses if you're not sure what to put into your schedule.
 
-### Features
+## Features
 
 - Create Account/Login
 - Find courses based on subject, instructor, name, and term
@@ -14,7 +12,7 @@ view popular courses if you're not sure what to put into your schedule.
 - View schedule
 - View popular courses in computer science department
 
-### Setup and Usage
+## Setup and Usage
 
 #### Heroku Link: https://gentle-basin-56402.herokuapp.com
 
