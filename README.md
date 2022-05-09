@@ -6,6 +6,8 @@ view popular courses if you're not sure what to put into your schedule.
 
 ## Features
 
+#### Zoom Link:https://brandeis.zoom.us/rec/share/2CVMOD3pXFafd_WZ6ZHaop1B3od3h9LQKvdoL5spMvGMRxiRy8KpNFr_cOrChO6y.CO-pqH8scRD3wNLq?startTime=1652085402000
+
 - Create Account/Login
 - Find courses based on subject, instructor, name, and term
 - Add courses to schedule
